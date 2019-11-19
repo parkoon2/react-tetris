@@ -20,7 +20,6 @@ export const useStage = (player, resetPlayer) => {
         return ack;
       }, []);
 
-    console.log("use-effect in use stage");
     const updateStage = prevStage => {
       // First flush the stage
       const newStage = prevStage.map(row =>
