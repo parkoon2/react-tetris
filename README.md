@@ -11,6 +11,10 @@
 
 ![](./public/tetris-1.jpg)
 
+## 데모
+
+https://parkoon.github.io/react-tetris/
+
 ## 설치 방법
 
 ```sh
