@@ -5,15 +5,15 @@ import bg from "../../img/bg.png";
 export const StyledTetrisWrapper = styled.div`
   width: 100vw;
   height: 100vh;
-  background: url(${bg}) #000;
+  background: url("https://picsum.photos/1200/1200?random") #000;
   background-size: cover;
+  background-position: center center;
   overflow: hidden;
 `;
 
 export const StyledTetris = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 40px;
   margin: 0 auto;
   max-width: 900px;
